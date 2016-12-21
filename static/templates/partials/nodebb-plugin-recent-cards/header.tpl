@@ -20,12 +20,21 @@
 				<small>Messages</small>
 			</div>
 
-			<a href="{config.relative_path}/topic/{topics.slug}">{topics.title}</p></a>
-			<span class="description"><strong>
-				<!-- IF topics.category.icon -->
-				<i class="fa {topics.category.icon}"></i>
-				<!-- ENDIF topics.category.icon --> <a href="{config.relative_path}/category/{../slug}" itemprop="url">{topics.category.name}</a></strong>
+			<div class="topic-recent-main">
+				<a href="{config.relative_path}/topic/{topics.slug}">{topics.title}</p></a>
 
+				<div class="topic-category">
+					<!-- IF topics.category.icon -->
+					<div class="icon pull-left" style="<!-- IF topics.category.image -->background-image: url({topics.category.image});<!-- ELSE --><!-- IF topics.category.bgColor -->background-color: {topics.category.bgColor};<!-- ENDIF topics.category.bgColor --><!-- ENDIF topics.category.image --> color: {topics.category.color};">
+						<i class="fa {topics.category.icon}"></i>
+
+					</div>
+				</div>
+				<div class="topic-category-name">
+					<!-- ENDIF topics.category.icon --> <a href="{config.relative_path}/category/{../slug}" itemprop="url">{topics.category.name}</a></strong>
+				</div>
+
+				</div>
 		</div>
 
 		<!-- END topics -->
