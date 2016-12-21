@@ -6,10 +6,9 @@ This plugin is based on the official plugin Recent Cards althrough the html and 
 ## How to install
 
 run:
-
-    git clone  https://github.com/NyushaDEV/nodebb-plugin-recent-topics
-    Log to your admin area and enable the plugin.
-
+    git clone  https://github.com/NyushaDEV/nodebb-plugin-homepage-recent-topics
+    Log into your admin area and enable the plugin.
+    Restart nodebb
 ## Screenshot
 
 ![](http://i.imgur.com/Qle8FUJ.png)
