@@ -1,7 +1,7 @@
 <!-- IF topics.length -->
 <div class="row">
 	<div class="recent-threads">
-		<h2>Recent Topics</h2>
+		<h2>{recentCards.title}</h2>
 		<!-- BEGIN topics -->
 		<div class="recent-topic">
 
