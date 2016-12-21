@@ -31,7 +31,7 @@
 					</div>
 				</div>
 				<div class="topic-category-name">
-					<!-- ENDIF topics.category.icon --> <a href="{config.relative_path}/category/{../slug}" itemprop="url">{topics.category.name}</a></strong>
+					<!-- ENDIF topics.category.icon --> <a href="{config.relative_path}/category/{topics.category.slug}"  title="{topics.category.name}">{topics.category.name}</a></strong>
 				</div>
 
 				</div>
