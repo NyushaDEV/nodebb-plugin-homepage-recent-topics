@@ -7,7 +7,9 @@
 >
 >run:
 >git clone  https://github.com/NyushaDEV/nodebb-plugin-homepage-recent-topics
+>
 >Log into your admin area and enable the plugin.
+>
 >Restart nodebb
     
     
