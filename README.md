@@ -15,4 +15,4 @@
     
 ## Screenshot
 
-![](http://i.imgur.com/Qle8FUJ.png)
+![](http://image.prntscr.com/image/50204eb711ae443ab34e63b5b5bff629.png)
