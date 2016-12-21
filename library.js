@@ -134,7 +134,6 @@ function modifyCategoryTpl(callback) {
 		if (!tpl.match('<!-- Recent Cards plugin -->')) {
 			tpl = tpls.header.toString() + tpl;
 		}
-
 		fs.writeFile(tplPath, tpl, callback);
 	});
 }
