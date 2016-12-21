@@ -1,0 +1,34 @@
+{
+  "name": "nodebb-plugin-homepage-recent-topics",
+  "version": "0.2.5",
+  "description": "Recent topics in homepage",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NyushaDEV/nodebb-plugin-recent-topics"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "recent",
+    "cards",
+    "persona",
+    "topics"
+  ],
+  "author": {
+    "name": "psychobunny",
+    "email": "psycho.bunny@hotmail.com"
+  },
+  "author": {
+    "name": "TheRox",
+    "email": "therox91@gmail.com"
+  },
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/NyushaDEV/nodebb-plugin-recent-topics/issues"
+  },
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility": "^1.0.3"
+  }
+}

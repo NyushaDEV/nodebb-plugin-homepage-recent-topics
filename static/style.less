@@ -1,0 +1,127 @@
+@import "./mixins";
+.recent-threads {
+	position: relative;
+	background-color: #fff;
+	margin-bottom: 10px;
+	h2 {
+		margin: 0;
+		background-color: #D9534F;
+		color: #fff;
+		line-height: 40px;
+		height: 40px;
+		padding: 0 0 0 18px;
+		font-size: 14px;
+		text-transform: uppercase;
+		.border-radius(6px);
+	}
+
+	.recent-topic {
+		position: relative;
+		margin-bottom: 17px;
+		border-bottom: 1px solid #ddd;
+		margin-top: 10px;
+		padding-left: 24px;
+		padding-bottom: 12px;
+	}
+
+	.topic-count {
+		color: #000;
+		position: absolute;
+		right: 10px;
+		top: -11px;
+		text-align: center;
+		width: 79%;
+		h4 {
+			color: grey;
+		}
+		small {
+			text-transform: uppercase;
+			color: #777;
+			font-weight: 300;
+			font-size: 12px;
+			display: block;
+		}
+	}
+
+	.topic-recent-info {
+		color: #000;
+		position: absolute;
+		right: 10px;
+		top: -11px;
+		text-align: center;
+		width: 63%;
+		h4 {
+			color: grey;
+		}
+		small {
+			text-transform: uppercase;
+			color: #777;
+			font-weight: 300;
+			font-size: 12px;
+			display: block;
+		}
+	}
+
+	.topic-recent-message {
+		position: absolute;
+		width: 26%;
+		right: 10px;
+		top: 1px;
+		z-index: 10;
+		border-left: 4px solid #2e939f;
+		padding-left: 14px;
+		height: 39px;
+		.last-message {
+			color: #a7a7a7;
+			p {
+				width: 74%;
+				overflow:hidden;
+				text-overflow:ellipsis;
+				white-space: nowrap; 
+			} 
+
+		}
+		.timeago {
+			color: grey;
+			font-size: 10px;
+			right: -5px;
+			position: relative;
+			top: -4px;
+			background: white;
+		}
+		a.permalink {
+			position: absolute;
+			right: 1px;
+			top: -2px;
+		}
+
+		p {
+			color: #888888;
+			font-size: 11px;
+			margin: 0;
+		}
+
+		blockquote {
+			display: none; // disabling quote message, because it cause a major problem on the css.
+			padding: 2px 7px;
+			margin: 0;
+			font-size: 16px;
+			border-left: 5px solid #eee;
+		}
+	}
+
+
+
+	.recent-left {
+			 width: 40%;
+			 float: left;
+	}
+	.recent-right {
+		width: 40%;
+		float: right;
+	}
+	span.replies-icon-size {
+		font-size: 14px;
+	}
+
+}

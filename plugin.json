@@ -1,0 +1,35 @@
+{
+	"id": "nodebb-plugin-homepage-recent-topics",
+	"name": "Recent topics plugin for NodeBB's Persona Theme",
+	"description": "Based on Recents cards plugin",
+	"url": "https://github.com/NyushaDEV/nodebb-plugin-homepage-recent-topics",
+	"library": "./library.js",
+	"hooks": [
+		{
+			"hook": "static:app.load", "method": "init"
+		},
+		{
+			"hook": "filter:admin.header.build", "method": "addAdminNavigation"
+		},
+		{
+			"hook": "filter:categories.build", "method": "getCategories"
+		},
+		{
+			"hook": "action:nodebb.ready", "method": "onNodeBBReady"
+		}
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+		"static/style.less"
+	],
+	"css": [
+		"static/bxslider/jquery.bxslider.css"
+	],
+	"scripts": [
+		"static/bxslider/jquery.bxslider.min.js",
+		"static/lib/main.js"
+	],
+	"templates": "static/templates"
+}
