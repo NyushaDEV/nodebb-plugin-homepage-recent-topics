@@ -10,7 +10,7 @@
 >
 >Log into your admin area and enable the plugin.
 >
->Restart nodebb
+> run: ./nodebb build and start your nodebb
     
     
 ## Screenshot
