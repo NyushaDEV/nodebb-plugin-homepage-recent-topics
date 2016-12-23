@@ -6,7 +6,10 @@
 		<div class="recent-topic">
 
 			<div class="topic-recent-message">
-				<div id="lastmessage" class="last-message">{topics.teaser.content}</div>
+				<div id="lastmessage" class="last-message">
+					<a href="{config.relative_path}/user/{topics.teaser.user.userslug}">{topics.teaser.user.username}</a>
+
+					{topics.teaser.content}</div>
 				<a class="permalink" href="{config.relative_path}/topic/{topics.slug}/{topics.teaser.index}"><span class="timeago" title="><!-- IF topics.teaser.timestampISO -->{topics.teaser.timestampISO}<!-- ELSE -->{topics.timestampISO}<!-- ENDIF topics.teaser.timestampISO -->"></span></span></a>
 			</div>
 
@@ -34,7 +37,7 @@
 					<!-- ENDIF topics.category.icon --> <a href="{config.relative_path}/category/{topics.category.slug}"  title="{topics.category.name}">{topics.category.name}</a></strong>
 				</div>
 
-				</div>
+			</div>
 		</div>
 
 		<!-- END topics -->
